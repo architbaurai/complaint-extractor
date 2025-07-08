@@ -1,0 +1,35 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore build output
+dist/
+build/
+coverage/
+
+# Ignore logs
+*.log
+
+# Ignore environment & config files if you don’t want Prettier to format them
+.env
+.env.*  
+
+# Ignore common metadata files
+package-lock.json
+yarn.lock
+
+# Ignore generated assets (e.g. minified files, maps)
+*.min.js
+*.map
+
+# Ignore everything inside specific folders
+public/
+tmp/
+vendor/
+
+# Ignore docs if you don’t want them auto-formatted
+README.md
+*.md
+
+# Optional: ignore migration files or snapshots
+migrations/
+snapshots/
